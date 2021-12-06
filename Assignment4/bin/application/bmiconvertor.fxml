@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="276.0" style="-fx-background-color: LAVENDER;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.bmiconvertorController">
+   <children>
+      <ImageView fitHeight="105.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pnghut_health.png" />
+         </image>
+      </ImageView>
+      <Text fill="#ac85e7" fontSmoothingType="LCD" layoutX="160.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI" wrappingWidth="58.3160400390625">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text fill="#ac85e7" layoutX="120.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calculator" wrappingWidth="141.856689453125">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Button layoutX="105.0" layoutY="273.0" mnemonicParsing="false" onAction="#getbmi" style="-fx-background-color: MEDIUMPURPLE;" text="Calculate" />
+      <Text layoutX="89.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight (kilograms)" />
+      <Text layoutX="95.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Height (metres)" />
+      <Text fill="#ac85e7" layoutX="24.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI Value">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="value" contentDisplay="CENTER" layoutX="158.0" layoutY="314.0" textFill="#532996">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="w1" layoutX="62.0" layoutY="174.0" />
+      <TextField fx:id="h1" layoutX="64.0" layoutY="234.0" />
+      <Label fx:id="value2" layoutX="150.0" layoutY="349.0" textFill="#532996">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="229.0" mnemonicParsing="false" onAction="#gohome" prefHeight="27.0" prefWidth="42.0">
+         <graphic>
+            <ImageView fitHeight="52.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@llls.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

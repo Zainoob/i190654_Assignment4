@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="276.0" style="-fx-background-color: PLUM;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.areaController">
+   <children>
+      <ImageView fitHeight="93.0" fitWidth="83.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-area-50.png" />
+         </image>
+      </ImageView>
+      <Text fill="#8e27d7" layoutX="116.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Convertor">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#8e27d7" layoutX="153.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Area">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="metres" layoutX="64.0" layoutY="48.0" />
+      <Text fill="#5c0994" layoutX="60.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the Area (in square metres)">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Button layoutX="109.0" layoutY="80.0" mnemonicParsing="false" onAction="#convert" style="-fx-background-color: #8e27d7;" text="Convert" textFill="WHITE" />
+      <Label fx:id="ft" layoutX="27.0" layoutY="125.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="km" layoutX="27.0" layoutY="151.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="cm" layoutX="27.0" layoutY="177.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="he" layoutX="27.0" layoutY="203.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mi" layoutX="27.0" layoutY="229.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="in" layoutX="27.0" layoutY="255.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mm" layoutX="27.0" layoutY="281.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="-5.0" mnemonicParsing="false" onAction="#gohome" prefHeight="39.0" prefWidth="55.0">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ueuue.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

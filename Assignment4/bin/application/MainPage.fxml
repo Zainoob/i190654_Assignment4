@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="276.0" style="-fx-background-color: LIGHTSTEELBLUE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainPageController">
+	<children>
+		<Button alignment="CENTER" layoutX="41.0" layoutY="48.0" mnemonicParsing="false" onAction="#DiscountClicked" prefHeight="54.0" prefWidth="58.0" textAlignment="JUSTIFY">
+			<graphic>
+				<ImageView fitHeight="44.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@discount.jpg" />
+					</image>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Button alignment="BOTTOM_CENTER" layoutX="177.0" layoutY="48.0" minWidth="53.0" mnemonicParsing="false" onAction="#AgeClicked" prefHeight="54.0" prefWidth="58.0">
+			<graphic>
+				<ImageView fitHeight="51.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@age-calculator1.jpg" />
+					</image>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Button layoutX="42.0" layoutY="173.0" mnemonicParsing="false" onAction="#CurrencyClicked" prefHeight="55.0" prefWidth="57.0">
+			<graphic>
+				<ImageView fitHeight="52.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@curency.jpg" />
+					</image>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Button layoutX="177.0" layoutY="172.0" minWidth="50.0" mnemonicParsing="false" onAction="#BMIClicked" prefHeight="55.0" prefWidth="58.0">
+			<graphic>
+				<ImageView fitHeight="49.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@bmi1.jpg" />
+					</image>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Button layoutX="43.0" layoutY="288.0" mnemonicParsing="false" onAction="#AreaClicked" prefHeight="54.0" prefWidth="56.0">
+			<graphic>
+				<ImageView fitHeight="47.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@area.jpg" />
+					</image>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Button layoutX="178.0" layoutY="288.0" mnemonicParsing="false" onAction="#CalculatorClicked" prefHeight="54.0" prefWidth="57.0">
+			<graphic>
+				<ImageView fitHeight="65.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@cals1.jpg" />
+					</image>
+				</ImageView>
+			</graphic>
+		</Button>
+		<Text layoutX="43.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discount" textAlignment="CENTER" />
+		<Text layoutX="195.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" />
+		<Text layoutX="43.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Currency" textAlignment="CENTER" />
+		<Text layoutX="194.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI" textAlignment="CENTER" />
+		<Text layoutX="57.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Area" />
+		<Text layoutX="176.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calculator" textAlignment="CENTER" />
+	</children>
+</AnchorPane>
